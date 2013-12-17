@@ -11,6 +11,4 @@
 (def app
   (handler/site app-routes))
 
-(def some-text
-  (hiccup.core/html [:div
-         [:p "nad moo"]]))
+
