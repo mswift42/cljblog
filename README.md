@@ -1,6 +1,6 @@
 # cljblog
 
-FIXME
+Implement a simple blog app using Compojure and Hiccup.
 
 ## Prerequisites
 
@@ -16,4 +16,4 @@ To start a web server for the application, run:
 
 ## License
 
-Copyright © 2013 FIXME
+Copyright © 2013 GPlv2 or later.
