@@ -2,5 +2,19 @@ body {
     background-color:#efece3;}
 
 .header {
-    color:navy;
+    color:#232323;
+    text-align:center;
+    }
+
+.wholeform {
+    text-align:center;
+    margin:auto;
+    width:33em;
+    }
+
+
+
+
+.tarea {
+    width:90%;
     }
