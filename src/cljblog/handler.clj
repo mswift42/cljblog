@@ -21,11 +21,11 @@
      [:form {:method "post"}
       [:div {:class "tinput"}
        
-       [:input {:type "text" :class "tarea" :name "text"}]]
+       [:input {:type "text" :class "tarea" :name "text"}] ]
       [:div {:class "tinput"}
        [:textarea {:class "tarea" :name "tarea" :rows "30" }]]
       [:div {:class "button"}
-       [:input {:type "submit" :text "submit"}]]]]]))
+       [:input {:type "submit" :value "submit"}]]]]]))
 
 (def newpost-page
   (apply str (page-header "New post") newpost-page-body))
