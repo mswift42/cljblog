@@ -20,9 +20,10 @@
     [:div {:class "wholeform"}
      [:form {:method "post"}
       [:div {:class "tinput"}
-       [:input {:type "text" :class "tfeld" :name "text"}]]
-      [:div {:class "tarea"}
-       [:textarea {:class "tarea" :name "tarea"}]]
+       
+       [:input {:type "text" :class "tarea" :name "text"}]]
+      [:div {:class "tinput"}
+       [:textarea {:class "tarea" :name "tarea" :rows "30" }]]
       [:div {:class "button"}
        [:input {:type "submit" :text "submit"}]]]]]))
 
