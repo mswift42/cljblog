@@ -18,9 +18,8 @@
    [:body
     [:h2 {:class "header"} "Enter a new Post."]
     [:div {:class "wholeform"}
-     [:form {:method "post"}
+     [:form {:method "post" :class "wholeform"}
       [:div {:class "tinput"}
-       
        [:input {:type "text" :class "tarea" :name "text"}] ]
       [:div {:class "tinput"}
        [:textarea {:class "tarea" :name "tarea" :rows "30" }]]
@@ -36,7 +35,7 @@
   (GET "/" [] newpost-page)
   (route/resources "/")
   (route/not-found "Not Found")
-  (POST "/newpost" [] newpost-page)
+  (POST "/newpost" [title body] newpost-page)
   (GET "/newpost" [] newpost-page)
   (route/resources "/newpost"))
 
